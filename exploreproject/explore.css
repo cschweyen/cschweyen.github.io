@@ -1,0 +1,115 @@
+body {
+	background-image: url(bg.jpg);
+}
+
+section {
+	background-color: rgba(0,0,0,0.3);
+}
+
+section h1 {
+	color: white;
+	font-size: 72px;
+	margin: 0;
+	text-align: left;
+	font-family: 'Georgia', serif;
+}
+
+section h2 {
+	color: #8CF0EF;
+	font-size: 25px;
+	margin: 0;
+	text-align: left;
+	font-family: 'Georgia', serif;
+}
+
+figure {
+	width: 29%;
+	border: 1px solid white;
+	margin: 10px;
+	text-align: center;
+	padding: 5px;
+	background-color: rgba(0,0,0,1);
+	float: left;
+}
+
+
+figure img{
+	width: 90%;
+	text-align: center; 
+}
+
+figcaption {
+	color: #ffff;
+	font-family: Arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+footer {
+	background-color: transparent;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	clear: both;
+	color: #8CF0EF;
+
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000 url("bg.jpg") no-repeat center top;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	
+}
+
+.welcome {
+	padding: 10px 15px;
+	margin: 20px 0;
+	overflow: auto;
+}
+
+nav {
+	padding: 10px;
+	background-color: white;
+	text-align: center; 
+	font-family: 'Georgia', serif;
+	color: black;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	margin: 0 30px;
+}
+
+nav a {
+	color: #133450;
+	font-size:30px;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: 'Permanent Marker', cursive;
+}
+
+nav a:hover {
+	color: white;
+}
+
+#wrap {
+	width: 800px;
+	margin: 10px auto 0;
+	border: 2px solid black;
+	position: relative;
+}
+
+header {
+	clear: both;
+	text-align:center;
+	background-color: black;
+}
