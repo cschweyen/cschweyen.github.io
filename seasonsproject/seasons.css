@@ -1,0 +1,154 @@
+html, body {
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	height:100%;
+	background-color:navy blue;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+body#summer{
+	background-color:yellow;
+}
+
+#summer#wrap#{
+	
+}
+
+#summer header{
+	background-color: yellow;
+}
+
+.summertree2 {
+	width: 30%;
+	float: right;
+	overflow:auto;
+}
+
+body#fall{
+	background:orange;
+}
+
+#fall#wrap#{
+	width: 70%;
+	margin: 0 auto;
+	background-color: orange;
+}
+
+#fall header{
+	background-color: orange;
+}
+
+.falltree2 {
+	width: 30%;
+	float: right;
+	overflow: auto;
+}
+
+body#winter{
+	background:light blue;
+}
+
+#winter#wrap#{
+	
+}
+
+#winter header{
+	background-color: light blue;
+}
+
+.wintertree2 {
+	width: 30%;
+	float: right;
+	overflow: auto;
+}
+
+body#spring{
+	background:green;
+}
+
+#spring#wrap#{
+	
+}
+
+#spring header{
+	text-align: center;
+	font-size: 175%;
+	color: whtie;
+	background: green;
+}
+
+.springtree2 {
+	width: 30%;
+	float: right;
+	overflow: auto;
+}
+
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+	background-color:navy blue;
+}
+
+header#seasons {
+	text-align: center;
+	font-size: 175%;
+	color: brown;
+	background: grey;
+	
+}
+
+body#seasons{
+	background: navy;
+}
+
+.seasonstree2 {
+	width: 30%;
+	float: right;
+	overflow: auto;
+}
+
+nav{
+	background-color: black;
+	text-align: center; 
+	padding: 10px 0;
+	font-family: Arial;
+}
+
+nav a {
+	color: white;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: red;
+	background-color: blue;
+}
+
+nav li {
+	display: inline;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+section {
+	
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+}
