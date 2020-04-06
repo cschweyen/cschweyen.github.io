@@ -12,16 +12,16 @@ nav{
 	text-align: center;
 }
 
-nav ul {
+nav ul, footer ul {
 	margin: 0;
 }
 
-nav li {
+nav li, footer li {
 	display: inline;
 	margin: 20px;
 	
 }
-nav a {
+nav a, footer a {
 	color: white;
 	text-decoration: none;
 	padding: 20px;
@@ -32,22 +32,28 @@ body {
 	font-family: Verdana, Geneva, sans-serif;
 }
 
-td {
-	width: 20%;
-	background-color: #0EC8C7;
-	text-align: center;
-	color: white;
-	text-decoration: none;
-}
 
 aside {
-	color: white;
-	text-decoration: none;
-	background-color: #EC3632;
-	float: left;
-	text-align: left;
 	width: 24%;
-	height: 100%;
+	background-color:#EC3632;
+	float: left;
+	padding: 2%;
+}
+
+aside li{
+	list-style-type: none;
+	padding: 10px 0;
+}
+
+aside a{
+	color: white;
+}
+
+article {
+	width: 68%;
+	background-color: white;
+	float: right;
+	padding: 2%;
 }
 
 #wrap {
@@ -57,24 +63,19 @@ aside {
 }
 
 .head {
-  width: auto ;
-  max-width: 100% ;
-  height: auto ;
-  overflow; auto;
+
+  width: 100% ;
+
 }
 
 .buy {
-	width: auto;
-	max-width:35%;
-	height:auto;
+	width:35%;
+	float:right;
 }
 
 
 section {
-	background-color:white;
-	width: 75%;
-	padding: 5px;
-	float: right;
+	background-color: #EC3632;
 	overflow: auto;
 }
 
@@ -84,54 +85,46 @@ footer {
 	font-size: 11px;	
 }
 
-@media screen and (max-width: 600 px) {
+@media screen and (max-width: 600px) {
 body{
 	background-color: #CCCCCC;
 	}
 
-nav a {
+nav a, footer a, article a {
 		display: block;
 		width: 100%;
-		padding: 20 px;
+		padding: 20px 0;
 	}
-	
-nav ul, nav li {
-   display: inline;
-   margin-right: 20px;
-	}
-
-nav {
+	nav ul, nav li, footer ul, footer li, article ul, article li{
+		margin: 0;
 		padding: 0;
 	}
-	
-section {
-	background-color:white;
-	width: 75%;
-	padding: 5px;
-	float: right;
-}
+	nav {
+		padding: 0;
+	}
+	aside, article {
+		float: none;
+		width: 96%;
+	}
 
 #wrap {
 		width: 99%;
 	}
 	
 aside {
-		float: left;
-		width: 24%;
-		height: 100%;
-		
-	}
-	
-.head{
-		float: none;
-		width: 100%;
-	}
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}	
+
 	
 footer {
-	text-align: center;
-	background-color: #0EC8C7;
-	font-size: 11px;
 	
+}
+
+.buy {
+	width: 96%;
+	float:none;
 }
 
 }
