@@ -15,6 +15,7 @@ nav, footer {
 nav{
 	background-color: #283846;
 	text-align: center;
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
 nav ul, footer ul {
@@ -28,12 +29,13 @@ nav li, footer li {
 }
 nav a, footer a {
 	color: white;
+	/*padding: 20px;*/
 	text-decoration: none;
-	padding: 20px;
 }
 
 body {
 	padding: 5px 5px;
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
 #wrap {
@@ -43,11 +45,28 @@ body {
 }
 
 section {
-	
+	font-family: 'IBM Plex Sans', sans-serif;
+
 }
 
 .logo {
 	width: 100%;
+}
+
+.profile {
+	width: 15%;
+	float: none;
+	display: inline;
+	
+}
+
+.product {
+	width: 15%;
+	padding: 5px;
+	
+}
+.product:hover {
+	background-color: #34543d;
 }
 
 .gallery {
@@ -61,7 +80,7 @@ footer {
 	color: white;
 	height:50%;
 	font-size: 15px;
-	font: 'Permanent Marker', cursive;
+	font-family: 'IBM Plex Sans', sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -73,9 +92,14 @@ footer {
 	}
 	nav ul, nav li, footer ul, footer li, article ul, article li{
 		margin: 0;
-		padding: 0;
+		padding: 5px;
 	}
 	nav {
 		padding: 0;
 	}
+	
+.gallery {
+	width: 25%;
+	padding: 5px;
+}
 }
