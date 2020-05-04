@@ -1,0 +1,113 @@
+html, body {
+	margin: 0;
+	padding: 0;
+
+}
+
+nav{
+	font-size: 20px;
+}
+
+nav, footer {
+	padding: 20px;
+}
+
+nav{
+	background-color: #283846;
+	text-align: center;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+nav ul, footer ul {
+	margin: 5px;
+}
+
+nav li, footer li {
+	display: inline;
+	margin: 20px;
+	
+}
+nav a, footer a {
+	color: white;
+	/*padding: 20px;*/
+	text-decoration: none;
+}
+
+body {
+	padding: 5px 5px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+	
+}
+
+section {
+	font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.logo {
+	width: 100%;
+}
+
+.product {
+	width: 15%;
+	padding: 5px;
+	
+}
+.product:hover {
+	background-color: #34543d;
+}
+
+.gallery {
+	width: 25%;
+	padding: 5px;
+	
+}
+
+.fb-share-button {
+	float: right;
+	padding: 0px 70px 0px 0px;
+}
+
+}
+.elk {
+	width: 30%;
+}
+
+footer {
+	background-color: #283846;
+	text-align: center;
+	color: white;
+	height:50%;
+	font-size: 15px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+
+	nav a, footer a, article a {
+		display: block;
+		width: 100%;
+		padding: 20px 0;
+	}
+	nav ul, nav li, footer ul, footer li, article ul, article li{
+		margin: 0;
+		padding: 5px;
+	}
+	nav {
+		padding: 0;
+	}
+	
+.gallery {
+	width: 25%;
+	padding: 5px;
+}
+
+.elk {
+	width: 30%;
+}
+}
